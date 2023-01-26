@@ -1,0 +1,59 @@
+
+body{
+    
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.princ{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 05px;
+    margin-left: 10px;
+    border: 5px;
+    border-radius:10px;
+    border-style:ridge;
+    border-color: rgb(1, 255, 204);
+    padding-top: 20px;
+    
+    
+
+}
+
+
+
+
+    
+   
+
+.topics
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 146, 146);
+    font-size: 40px;
+    margin-left: -2rem;
+    margin-right: -1rem;
+    margin-bottom: 10px;
+
+}
+
+.logo{
+    font-family: serif;
+    font-size: 25;
+    font-weight:bold;
+    text-shadow: 5px;
+    color: rgb(255, 17, 17);
+    
+}
+
+.place{
+    font-family: cursive;
+}
+
+

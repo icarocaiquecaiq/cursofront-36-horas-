@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>formulário básico</title>
+</head>
+<body>
+ <h1>envie uma mensagem preenchendo o formulário abaixo </h1>
+ 
+    <form action="#" method="post">
+    
+            <label>seu nome:</label>
+                <p><input type="seu nome" maxlength="9" placeholder="nome e sobrenome"></p>
+            
+            <label>seu telefone:</label>
+                <p> <input type="seu número:" min="0" max="8" placeholder="ex:99999999"></p>
+            
+            <label>seu e-mail:</label>  
+                <p> <input type="email" required maxlength="30" placeholder="meuemail@gmail.com"></p>
+        
+        <fieldset>
+         <p><legend>deseja receber nossas novidades? 
+            
+            <label>sim 
+                <input type="radio" name="deseja" value="s">
+            </label> 
+            
+            <label> não
+                <input type="radio" name="deseja" value="n">
+            </label>
+         
+         </legend> </p>
+        
+        </fieldset>
+
+        <fieldset>
+         <legend> texto </legend>
+            <p><label>escreva sobre seu antigo trabalho</label></p>
+            <textarea style="resize: none" name="text"  cols="100" rows="10" placeholder="digite seu texto aqui"></textarea>
+                
+        </fieldset>
+
+
+        <p><input type="submit" name="enviar"></p>
+
+    </form>
+
+</body>
+</html>
